@@ -12,6 +12,9 @@ L'interface graphique est réalisée avec JavaFX.
 
 ## Base de données
 
+Voici le schéma de la base de données :
+![Bdd](.\img\contact_photo.png)
+
 ### DAO
 
 Pour l'interface entre le programme et la base de données, nous avons utilisé SQLite comme demandé dans l'énoncé. Nous avons aussi pu réaliser différents tests unitaires pour chaque fonctions de la DAO. Ils sont tous validés comme on peut le voir sur la photo ci-dessous. 
@@ -26,7 +29,8 @@ Nous avons eu un problème lors de l'intégration de la partie graphique avec le
 
 ![Capture d’écran 2021-03-14 204439](img\é.png)
 
-Malgré nos recherches sur différents forum, aucune solution ne fonctionne. voici les liens que nous avons utilisés :
+Malgré nos recherches sur différents forums, aucune solution n'a fonctionné.
+Voici les liens que nous avons utilisé :
 
 - https://openjfx.io/openjfx-docs/#maven
 - https://stackoverflow.com/questions/61752020/failed-to-execute-goal-org-openjfxjavafx-maven-plugin0-0-1run-default-cli-a
